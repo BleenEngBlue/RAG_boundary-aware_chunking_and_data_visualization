@@ -1,6 +1,6 @@
 # RAG Pipeline: Semantic Chunking, Embedding & Cluster Visualization
 
-This Jupyter notebook is a hands-on implementation of Retrieval-Augmented Generation (RAG) with a focus on the document chunking and embedding pipeline — core skills for any modern AI engineer. It was built as part of the Super Data Science AI Challenge, a community-driven program designed to help practitioners build real-world AI fluency through project-based learning.
+This Jupyter notebook is a hands-on implementation of Retrieval-Augmented Generation (RAG) with a focus on the document chunking and embedding pipeline — core skills for any modern AI engineer. It was built as part of the Super Data Science AI Challenge https://www.skool.com/ai-challenge, a community-driven program designed to help practitioners build real-world AI fluency through project-based learning.
 
 # Project Overview:
 The notebook walks through a complete RAG preprocessing pipeline using the Netflix Culture Memo [Netflix Culture Memo](https://jobs.netflix.com/culture) (June 2024) as a sample document.
