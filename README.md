@@ -1,8 +1,22 @@
 # RAG Pipeline: Semantic Chunking, Embedding & Cluster Visualization
 
-A hands-on Jupyter notebook that walks through the core building blocks of a Retrieval-Augmented Generation (RAG) pipeline — from raw document ingestion through intelligent chunking, embedding generation, semantic clustering, and interactive 3D visualization.
+This Jupyter notebook is a hands-on implementation of Retrieval-Augmented Generation (RAG) with a focus on the document chunking and embedding pipeline — core skills for any modern AI engineer. It was built as part of the Super Data Science AI Challenge, a community-driven program designed to help practitioners build real-world AI fluency through project-based learning.
 
-The demo document is the [Netflix Culture Memo](https://jobs.netflix.com/culture) (June 2024).
+# Project Overview:
+The notebook walks through a complete RAG preprocessing pipeline using the Netflix Culture Memo [Netflix Culture Memo](https://jobs.netflix.com/culture) (June 2024) as a sample document.
+
+### Document loading — The Netflix Culture Memo is loaded as raw text, serving as the knowledge base to be queried.
+### Custom text chunking — A sophisticated chunking algorithm (chunk_text) splits the document into overlapping segments (max 500 chars, 50-char overlap, min 250 chars). It intelligently snaps chunk boundaries to natural breaks — paragraph → sentence → word — so chunks never split mid-word or mid-thought.
+### Embedding generation — Each chunk is embedded using OpenAI's text-embedding-3-small model, converting text into high-dimensional semantic vectors.
+### Dimensionality reduction & visualization — The embeddings are projected down to 2D and 3D using UMAP, then plotted with matplotlib and interactive Plotly charts. KMeans clustering (k=2) groups semantically similar chunks and colors them accordingly.
+### Cluster interpretation — GPT-4o-mini is called to automatically describe the unifying theme of each cluster in 2–3 sentences, turning raw math back into human-readable insight.
+
+Key concepts demonstrated:
+* Manual chunking strategy with overlap and boundary detection
+* Semantic embeddings and vector space reasoning
+* Unsupervised clustering (KMeans) on embedding space
+* Dimensionality reduction for visualization (UMAP)
+* LLM-assisted cluster labeling
 
 ---
 
