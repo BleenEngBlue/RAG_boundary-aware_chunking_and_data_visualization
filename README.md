@@ -219,8 +219,8 @@ Even with `random_state=42` and `n_jobs=1`, UMAP can produce axially shifted or 
 
 | Role | What this demonstrates |
 |------|------------------------|
-| **AI / Applied ML Engineer** | UMAP vs. t-SNE tradeoff at this data scale; diagnosing and mitigating UMAP non-determinism via `random_state` + `n_jobs=1`; caching strategy for reproducible projections; PCA as a strictly deterministic fallback |
 | **AI Product Engineer** | End-to-end RAG prototype on a real knowledge base; reproducibility vs. visual fidelity tradeoffs; embedding architecture compatible with Pinecone, Weaviate, and pgvector without modification |
+| **AI / Applied ML Engineer** | UMAP vs. t-SNE tradeoff at this data scale; diagnosing and mitigating UMAP non-determinism via `random_state` + `n_jobs=1`; caching strategy for reproducible projections; PCA as a strictly deterministic fallback |
 | **LLM / Agent Engineer** | Multi-step pipeline with LLM calls at defined stages; `gpt-4o-mini` model selection for cost/latency appropriateness on a short summarization task |
 | **Forward Deployed / Generalist Engineer** | Corpus-agnostic pipeline; drop-in vector store compatibility; no customer-specific modifications required |
 
