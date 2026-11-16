@@ -1,4 +1,4 @@
-# RAG Pipeline — Semantic Chunking, Embedding & Cluster Visualization
+# RAG Pipeline — Boundary-Aware Chunking and Cluster Visualization
 
 > End-to-end RAG preprocessing pipeline with boundary-aware chunking, OpenAI embeddings, UMAP/KMeans clustering, 2D/3D visualization, and LLM-powered cluster labeling.
 
